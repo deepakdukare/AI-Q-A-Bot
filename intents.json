@@ -1,0 +1,213 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "ai_intro",
+      "patterns": [
+        "Introduction to Artificial Intelligence",
+        "Foundations of Artificial Intelligence",
+        "History of Artificial Intelligence",
+        "State of the Art in AI",
+        "Risks and Benefits of AI",
+        "Intelligent Agents",
+        "Agents and Environments",
+        "Good Behavior: Concept of Rationality",
+        "Nature of Environments",
+        "Structure of Agents"
+      ],
+      "responses": [
+        "Introduction to Artificial Intelligence covers the fundamental concepts and principles of AI.",
+        "Foundations of Artificial Intelligence delve into the theoretical and practical underpinnings of AI.",
+        "History of Artificial Intelligence traces the evolution and milestones in AI research and development.",
+        "State of the Art in AI explores the current advancements and cutting-edge technologies in the field.",
+        "Risks and Benefits of AI examine the potential societal impacts and ethical considerations of AI.",
+        "Intelligent Agents are entities capable of perceiving their environment and taking actions to achieve goals.",
+        "Agents and Environments study the interaction between intelligent agents and their surroundings.",
+        "Good Behavior: Concept of Rationality explores the notion of rational decision-making within AI systems.",
+        "Nature of Environments analyzes the characteristics and complexities of different environments in AI.",
+        "Structure of Agents examines the internal architecture and components of intelligent agents."
+      ]
+    },
+    {
+      "tag": "problem_solving",
+      "patterns": [
+        "Solving Problems by Searching",
+        "Problem-Solving Agents",
+        "Example Problems",
+        "Search Algorithms",
+        "Uninformed Search Strategies",
+        "Informed (Heuristic) Search Strategies",
+        "Heuristic Functions",
+        "Search in Complex Environments",
+        "Local Search and Optimization Problems"
+      ],
+      "responses": [
+        "Solving Problems by Searching involves finding solutions through systematic exploration of a search space.",
+        "Problem-Solving Agents are intelligent agents designed to tackle specific tasks or problems.",
+        "Example Problems illustrate different types of challenges that can be addressed using AI techniques.",
+        "Search Algorithms are algorithms used to systematically explore a search space to find solutions.",
+        "Uninformed Search Strategies explore the search space without any additional knowledge about the problem domain.",
+        "Informed (Heuristic) Search Strategies utilize domain-specific knowledge to guide the search process.",
+        "Heuristic Functions provide estimates of the cost or distance to a goal state, guiding search algorithms.",
+        "Search in Complex Environments involves navigating through environments with intricate structures or constraints.",
+        "Local Search and Optimization Problems focus on finding optimal solutions by iteratively improving upon initial solutions."
+      ]
+    },
+    {
+      "tag": "game_theory_and_csp",
+      "patterns": [
+        "Game Theory",
+        "Optimal Decisions in Games",
+        "Heuristic Alpha–Beta Tree Search",
+        "Monte Carlo Tree Search",
+        "Stochastic Games",
+        "Partially Observable Games",
+        "Limitations of Game Search Algorithms",
+        "Constraint Satisfaction Problems (CSP)",
+        "Constraint Propagation: Inference in CSPs",
+        "Backtracking Search for CSPs"
+      ],
+      "responses": [
+        "Game Theory studies strategic decision-making in competitive situations.",
+        "Optimal Decisions in Games involve finding strategies that lead to the best possible outcomes.",
+        "Heuristic Alpha–Beta Tree Search is a search algorithm used to evaluate game trees efficiently.",
+        "Monte Carlo Tree Search is a probabilistic search algorithm commonly used in game AI.",
+        "Stochastic Games involve uncertainty or randomness in the outcome of actions.",
+        "Partially Observable Games involve incomplete information about the game state.",
+        "Limitations of Game Search Algorithms include challenges such as computational complexity and scalability.",
+        "Constraint Satisfaction Problems (CSP) involve finding assignments to variables that satisfy a set of constraints.",
+        "Constraint Propagation: Inference in CSPs is a technique to deduce new constraints from existing ones.",
+        "Backtracking Search for CSPs is a systematic approach to finding solutions by exploring the search space."
+      ]
+    },
+    {
+      "tag": "logical_agents_and_kb",
+      "patterns": [
+        "Logical Agents",
+        "Knowledge-Based Agents",
+        "The Wumpus World",
+        "Logic",
+        "Propositional Logic: A Very Simple Logic",
+        "Propositional Theorem Proving",
+        "Effective Propositional Model Checking",
+        "Agents Based on Propositional Logic",
+        "First-Order Logic",
+        "Representation Revisited",
+        "Syntax and Semantics of First-Order Logic",
+        "Using First-Order Logic",
+        "Knowledge Engineering in First-Order Logic"
+      ],
+      "responses": [
+        "Logical Agents are AI agents that operate on knowledge represented in logical form.",
+        "Knowledge-Based Agents use a knowledge base to make decisions and take actions.",
+        "The Wumpus World is a classic AI problem involving an agent navigating a maze with hidden dangers.",
+        "Logic provides a formal language and rules for reasoning about propositions and their relationships.",
+        "Propositional Logic is a simple logical system that deals with propositions and logical operators.",
+        "Propositional Theorem Proving involves determining the truth of logical formulas using inference rules.",
+        "Effective Propositional Model Checking verifies properties of systems by exhaustively exploring their state space.",
+        "Agents Based on Propositional Logic use propositional logic to represent and reason about knowledge and actions.",
+        "First-Order Logic extends propositional logic with quantifiers and predicates to express more complex relationships.",
+        "Representation Revisited explores different ways to represent knowledge in AI systems.",
+        "Syntax and Semantics of First-Order Logic define the structure and meaning of first-order logical expressions.",
+        "Using First-Order Logic involves applying first-order logic to solve problems and make inferences.",
+        "Knowledge Engineering in First-Order Logic focuses on designing and building knowledge bases using first-order logic."
+      ]
+    },
+    {
+      "tag": "inference_and_reasoning",
+      "patterns": [
+        "Inference in First-Order Logic",
+        "Propositional vs. First-Order Inference",
+        "Unification and First-Order Inference",
+        "Forward Chaining",
+        "Backward Chaining",
+        "Resolution",
+        "Knowledge Representation",
+        "Ontological Engineering",
+        "Categories and Objects",
+        "Events",
+        "Mental Objects and Modal Logic",
+        "Reasoning Systems for Categories",
+        "Reasoning with Default Information"
+      ],
+      "responses": [
+        "Inference in First-Order Logic involves deriving new knowledge from existing knowledge using logical rules.",
+        "Propositional vs. First-Order Inference compares the capabilities and limitations of inference in different logical systems.",
+        "Unification and First-Order Inference is a process for finding substitutions that make logical expressions equivalent.",
+        "Forward Chaining is a reasoning method that starts with known facts and derives new conclusions.",
+        "Backward Chaining is a reasoning method that starts with a goal and works backward to find supporting evidence.",
+        "Resolution is a general-purpose inference rule used in theorem proving and logic programming.",
+        "Knowledge Representation involves encoding knowledge in a form suitable for automated reasoning.",
+        "Ontological Engineering is the process of designing and constructing ontologies to represent conceptualizations of a domain.",
+        "Categories and Objects represent classes and instances in a domain, facilitating reasoning about relationships and properties.",
+        "Events represent occurrences or states of affairs in the world, enabling reasoning about temporal and causal relationships.",
+        "Mental Objects and Modal Logic deal with abstract entities and modalities of existence or necessity.",
+        "Reasoning Systems for Categories develop methods for categorization and classification based on logical principles.",
+        "Reasoning with Default Information involves handling uncertain or incomplete knowledge in reasoning processes."
+      ]
+    },
+    {
+      "tag": "planning_and_decision_making",
+      "patterns": [
+        "Automated Planning",
+        "Classical Planning",
+        "Algorithms for Classical Planning",
+        "Heuristics for Planning",
+        "Hierarchical Planning",
+        "Planning and Acting in Nondeterministic Domains",
+        "Time, Schedules, and Resources",
+        "Analysis of Planning Approaches",
+        "Limits of AI",
+        "Ethics of AI",
+        "Future of AI",
+        "AI Components",
+        "AI Architectures"
+      ],
+      "responses": [
+        "Automated Planning involves generating plans or sequences of actions to achieve goals autonomously.",
+        "Classical Planning focuses on generating plans in deterministic environments with known states and actions.",
+        "Algorithms for Classical Planning include methods such as A* search, graph-based planning, and SAT solvers.",
+        "Heuristics for Planning are techniques to guide search algorithms towards more promising solutions.",
+        "Hierarchical Planning breaks down complex tasks into subtasks and plans at multiple levels of abstraction.",
+        "Planning and Acting in Nondeterministic Domains deal with environments where outcomes are uncertain.",
+        "Time, Schedules, and Resources consider temporal constraints and resource limitations in planning.",
+        "Analysis of Planning Approaches evaluates the effectiveness and efficiency of different planning methods.",
+        "Limits of AI examines the challenges and constraints faced by AI systems in solving complex problems.",
+        "Ethics of AI addresses ethical considerations and societal impacts of AI technologies and applications.",
+        "Future of AI explores emerging trends, advancements, and potential directions in the field of AI.",
+        "AI Components are the building blocks of AI systems, including modules for perception, reasoning, and action.",
+        "AI Architectures refer to the overall structure and organization of AI systems, such as rule-based systems, neural networks, and hybrid approaches."
+      ]
+    }
+  ]
+}
